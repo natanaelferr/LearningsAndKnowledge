@@ -1,0 +1,42 @@
+.box{
+    padding: 20px;
+	left: 50%;
+	top:65%;
+	transform: translate(-50%, -80%);
+	position: absolute;
+}
+
+.list{
+    padding: 20px;
+	left: 50%;
+	top:65%;
+	transform: translate(-50%, 50%);
+	position: absolute;
+}
+
+/* #btnBack:hover ~ .box{
+	transform: translate(40%, -80%);
+	opacity: 0;
+	transition: .4s;
+} */
+.element1{
+	display: block;
+}
+
+.element2{
+	display: none;
+}
+
+.btn-primary{
+    margin: 10px;
+	margin-top: 0px;
+	height:50px;
+}
+
+.card{
+    border-color:black;
+}
+
+.list-group-item{
+    border-color:black;
+}
